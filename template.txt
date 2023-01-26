@@ -1,0 +1,53 @@
+<!-- template for banner movies / trending movies  -->
+
+            <!-- <div class="swiper-slide now-playing ">
+                <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80">
+                <div class="now-playing-info">
+                    <h1 class="now-playing-title">FIRST </h1>
+                    <ul></ul>
+                    <p class="now-playing-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam ullam beatae voluptates at quod ip
+                    </p>
+                    <button class="now-playing-button">
+                        <i class="fa-solid fa-play"></i> Play Trailer
+                    </button>
+                </div>
+            </div> -->
+
+
+
+<!-- template for banner movies / most popular movies  -->
+             <!-- <div class="swiper-slide">
+
+                <a href="#">
+
+                    <div class="image-container">
+                        <img src="https://images.unsplash.com/photo-1531259683007-016a7b628fc3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="image">
+                        <span class="rating">8.0</span>
+                    </div>
+                    <div class="overview">
+                        <h3 class="overview-title">MOVIE TITLE</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro modi dolore, ipsam error ipsa minus. Delectus reiciendis hic a, in alias est esse rem officiis accusantium doloremque. Fuga, tempore dignissimos!
+                        </p>
+                    </div>
+
+                </a>
+                
+            </div> -->
+
+<!-- template for latest movies  -->
+            <!-- <a href="#">
+                <div class="post-box">
+                    <div class="post-img">
+                        <img src="https://images.unsplash.com/photo-1531259683007-016a7b628fc3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="">
+                        <span class="rating">8.0</span>
+                    </div>
+                    <div class="overview">
+                        <h3 class="overview-title">MOVIE TITLE</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro modi dolore, ipsam error ipsa minus. Delectus reiciendis hic a, in alias est esse rem officiis accusantium doloremque. Fuga, tempore dignissimos!
+                        </p>
+                    </div>
+                </div>
+            </a> -->

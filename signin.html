@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./img/icon.png">
+    <title>KodeFlix - Sign In</title>
+    <link rel="stylesheet" href="./css/form.css">
+    <script src="https://kit.fontawesome.com/ef8ea75839.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-box">
+            <h1 id="title">Sign In</h1>
+
+            <form id="register">
+                <div class="input-group">
+
+                    <div  class="input-field" id="nameField">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" class="textField" placeholder="User Name" id="username">
+                        <small id="usernameError"></small>
+                    </div>
+
+
+                    <div class="input-field">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" class="textField" placeholder="Password" id="password">
+                        <small id="passwordError"></small>
+                    </div>
+                    
+                    <br>
+
+                    <div class="btn-field">
+                        <button type="submit" value="Register" id="signinBtn" id="signin_btn" class="disable">Sign
+                            in</button>
+                    </div>
+                    <br><br>
+                    <div class="login-signup-now">
+                        New to Kodeflix?
+                        <a class target="_self" href="./signup.html"> <strong> Sign up now </strong></a>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+
+    <script src="./js/data.js"></script>
+</body>
+
+</html>
+
+
+<!-- <div class="input-field">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" class="textField" placeholder="Email" id="email">
+                        <small id="emailError"></small>
+                    </div> -->
+<!-- <div class="form-group">
+                        <input type="checkbox" id="rememberMe" name="rememberMe" onclick="rememberMe()">
+                        <label for="rememberMe" class="remember-me-label">Remember me</label>
+                    </div> -->

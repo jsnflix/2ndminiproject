@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="icon" type="image/png" href="./img/icon.png">
+  <title>KodeFlix</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar ">
+      <div class="navbar-brand ">
+        <img src="../img/logo.png " alt="logo " class="brand-logo " />
+      </div>
+
+      <div class="navbar-nav-items ">
+        <div class="nav-item ">
+          <button class="signin-button "><a style="text-decoration: none; color: inherit ; " href="./signin.html"
+              onclick="">Sign in </a></button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero ">
+      <div class="hero-bg-image-container ">
+        <img src="../img/banner.jpg " alt="BG hero image " class="hero-bg-image " />
+      </div>
+      <div class="hero-bg-overlay "></div>
+
+      <div class="hero-card ">
+        <h1 class="hero-title ">
+          Unlimited Movies, TV,<br /> Shows and More.
+        </h1>
+        <p class="hero-subtitle ">Watch anywhere and cancel anytime.</p>
+        <p class="hero-description ">
+          Ready to watch? Enter your email to create or restart your membership .
+        </p>
+
+        <div class="email-form-container ">
+          <div class="form-container " id="form">
+            <input type="email " class="email-input " placeholder=" " id="email" onkeydown="validation()" />
+            <label class="email-label ">Email Address</label>
+            <span id="text"></span>
+          </div>
+          <button class="primary-button "><a style="text-decoration: none; color: inherit ; "
+              href="./signup.html ">Get Started </a><i class="fal fa-chevron-right ">
+            </i>
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="features-container ">
+      <!-- Feature 1 -->
+      <div class="feature ">
+        <div class="feature-details ">
+          <h3 class="feature-title ">Enjoy on your TV.</h3>
+          <h5 class="feature-subtitle ">
+            Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.
+          </h5>
+        </div>
+        <div class="feature-image-container ">
+          <img src="../img/tv.png " alt="Feature image " class="feature-image " />
+          <div class="feature-backgroud-video-container ">
+            <video autoplay=" " loop=" " muted=" " class="feature-backgroud-video ">
+              <source src="../img/tv-video.m4v " type="video/mp4 " />
+            </video>
+          </div>
+        </div>
+      </div>
+      <!-- Feature 2 -->
+      <div class="feature ">
+        <div class="feature-details ">
+          <h3 class="feature-title ">
+            Download your shows to watch offline.
+          </h3>
+          <h5 class="feature-subtitle ">
+            Save your favourites easily and always have something to watch.
+          </h5>
+        </div>
+        <div class="feature-image-container ">
+          <img src="../img/st.jpg" alt="Feature image " class="feature-image " />
+          <div class="feature-2-poster-container ">
+            <div class="poster-container ">
+              <img src="../img/st-1.png" alt="poster " class="poster " />
+            </div>
+            <div class="poster-details ">
+              <h4>Stranger Things</h4>
+              <h6>Downloading...</h6>
+            </div>
+            <div class="download-gif-container ">
+              <img src="../img/download-icon.gif" alt="downloading gif " class="gif " />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Feature 3 -->
+      <div class="feature ">
+        <div class="feature-details ">
+          <h3 class="feature-title ">Watch everywhere.</h3>
+          <h5 class="feature-subtitle ">
+            Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.
+          </h5>
+        </div>
+        <div class="feature-image-container feature-3-image-container ">
+          <img src="../img/tv2.png" alt="Feature image " class="feature-image feature-3-image " />
+          <div class=" feature-backgroud-video-container feature-3-backgroud-video-container ">
+            <video autoplay=" " loop=" " muted=" " class="feature-backgroud-video feature-3-backgroud-video ">
+              <source src="../img/tv-video2.mp4" type="video/mp4 " />
+            </video>
+          </div>
+        </div>
+      </div>
+      <!-- Feature 4 -->
+    </section>
+    <section class="FAQ-list-container ">
+      <h1 class="FAQ-heading ">Frequently Asked Questions</h1>
+      <div class="FAQ-list ">
+        <div class="FAQ-accordian ">
+          <button class="FAQ-title ">
+            What is Kodeflix?<i class="fal fa-plus "></i>
+          </button>
+          <div class="FAQ-visible ">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur deserunt sunt, qui quaerat est quia
+              voluptatum voluptatibus fugiat quidem tempore obcaecati? Cumque vel quibusdam laborum sequi, odio officia
+              reiciendis nulla.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi tempora aliquid in odio iusto repellat
+              obcaecati voluptatibus similique rem neque dolorum, soluta ipsum saepe maxime maiores perferendis
+              molestiae ab voluptate.
+            </p>
+          </div>
+        </div>
+        <div class="FAQ-accordian ">
+          <button class="FAQ-title ">
+            How much does Kodeflix cost?<i class="fal fa-plus "></i>
+          </button>
+          <div class="FAQ-visible ">
+            <p>
+              It's Free
+            </p>
+          </div>
+        </div>
+        <div class="FAQ-accordian ">
+          <button class="FAQ-title ">
+            Where can i watch?<i class="fal fa-plus "></i>
+          </button>
+          <div class="FAQ-visible ">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias error voluptates consequuntur sint
+              recusandae labore fugiat praesentium voluptatem nulla quod, iure explicabo distinctio optio quam fugit sit
+              facere. Iure, ad.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi eaque adipisci consectetur rem hic
+              laboriosam pariatur aspernatur vitae dicta beatae dolores reiciendis, sit animi id accusamus enim, quaerat
+              sapiente qui.
+            </p>
+          </div>
+        </div>
+        <div class="FAQ-accordian ">
+          <button class="FAQ-title ">
+            How do I cancel?<i class="fal fa-plus "></i>
+          </button>
+          <div class="FAQ-visible ">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed, sunt! Doloremque quas, atque excepturi
+              magnam alias deleniti sapiente dolore enim architecto ipsa perferendis cupiditate suscipit, consequatur
+              voluptate harum tempora in.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <hr>
+  <footer class="footer">
+    <a href="#" class="cons">Questions? Contact us.</a>
+    <div class="footer-column">
+      <ul>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Investor Relations</a></li>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Speed Test</a></li>
+      </ul>
+      <ul>
+        <li><a href="#">Help Centre</a></li>
+        <li><a href="#">Jobs</a></li>
+        <li><a href="#">Cookie Preferences</a></li>
+        <li><a href="#">Legal Notices</a></li>
+      </ul>
+      <ul>
+        <li><a href="#">Account</a></li>
+        <li><a href="#">Ways to watch</a></li>
+        <li><a href="#">Corporate Information</a></li>
+        <li><a href="#">Netflix Originals</a></li>
+      </ul>
+      <ul>
+        <li><a href="#">Media Centre</a></li>
+        <li><a href="#">Terms of use</a></li>
+        <li><a href="#">Contact US</a></li>
+      </ul>
+    </div>
+    <!-- <div class="last">
+      <a href=""><img src="../img/logo.png" alt="" class="brand-logo"></a>
+    </div> -->
+  </footer>
+
+
+  <script src="./js/index_.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./img/icon.png">
+    <title>Home - Popular Movies </title>
+     <!-- FONTS -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+</head>
+<body>
+
+    <header class="header" id="header">
+        <div class="logo">
+            <img src="./img/logo.png" alt="KodeFlix">
+        </div>
+
+        <ul class="nav-menu">
+            <li class="nav-item" id="logout">Logout</li>
+            <li class="nav-item" id="home">Home</li>
+            <li class="nav-item" id="topRatedMenu">Top Rated</li>
+            <li class="nav-item" id="popularMenu" style="color: #a82f43">Popular</li>
+            <li class="nav-item" id="upcomingMenu">Upcoming</li>
+            <li class="nav-item" id="latestMenu">Latest</li>
+            <li class="nav-item" id="formMenu">
+                <form id="search-form">
+                    <input type="text" id="search-term" class="search" placeholder="Search movies..">
+                    <button type="submit" class="btn" id="submit-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+            </li>
+        </ul>
+        <div class="hamburger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </header>
+
+    <!-------- SEARCH RESULT ------->
+    <section class="search-results" id="searchResults">
+        <h2 id="resultTitle"></h2>
+        <div class="search-grid" id="searchGrid">
+        </div>
+    </section>
+
+    <section class="latest-movies" id="latest">
+        <div class="heading">
+            <h1>POPULAR MOVIES</h1>
+        </div>
+        <div class="post-container" id="latestGrid">
+        </div>
+    </section>
+
+    
+
+    <div class="pages" id="pages">
+        <button class="page-buttons" value="1">1</button>
+        <button class="page-buttons" value="2">2</button>
+        <button class="page-buttons" value="3">3</button>
+        <button class="page-buttons" value="4">4</button>
+        <button class="page-buttons" value="5">5</button>
+        <button class="page-buttons" value="6">6</button>
+        <button class="page-buttons" value="7">7</button>
+
+    </div>
+
+    <div class="progress">
+        <a href="#header">
+            <span class="progress-value">
+                    <small class="arrow-up"><i class="fa-sharp fa-solid fa-arrow-up"></i></small>
+            </span>
+        </a>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="./img/logo.png" alt="KodeFlix">
+            </div>
+            <p>
+                All rights reserved. Group 1
+            </p>
+        </div>
+    </footer>
+
+    <script src="./js/navigation.js"></script>
+    <script src="./js/popular.js"></script>
+    <script src="./js/scroll.js"></script>
+</body>
+</html>
